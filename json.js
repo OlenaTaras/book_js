@@ -8,6 +8,7 @@ var str = JSON.stringify(leader);
 
 	console.log(str);
 
+///next task;
 
 	var leader = {
   name: "Василий Иванович"
@@ -19,6 +20,10 @@ var soldier = {
 
 leader.soldier = soldier;
 soldier.leader = leader;
+
+
+
+
 
 var team = [leader, soldier];
 
